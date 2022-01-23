@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: monospace;
+    background-color:wheat;
+}
+
+#navElement {
+    color:antiquewhite;
+}
+
+@media (min-width: 992px) {
+    .navbar-nav{
+        display:none;
+    }
+}
+
+h1 {
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.navbar-brand{
+    font-size: 40px;
+}
